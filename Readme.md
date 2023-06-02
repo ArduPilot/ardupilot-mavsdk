@@ -16,21 +16,21 @@ https://ardupilot.org/copter
 This contains many examples on how to use MAVSDK library to control ArduPilot SITL.
 
 The following sequence should be followed in order to setup everything:
-1. Build the docker images in ```bash docker/ ``` folder using the script ```bash ./docker/build_and_push_docker_images.sh ```
+1. Build the docker images in ```docker/ ``` folder using the script ``` ./docker/build_and_push_docker_images.sh ```
 
 2. Clone the MAVSDK library on your system. Checkout specfic tag or version if don't want to use the main brach.
 
-3. Adapt the ```bash PATH_TO_MAVSDK``` and ```bash PATH_TO_TOOLS``` in the script ```bash run_docker.sh```
+3. Adapt the ```PATH_TO_MAVSDK``` and ```PATH_TO_TOOLS``` in the script ```run_docker.sh```
 
-4. Run the script ```bash run_docker.sh```
+4. Run the script ```run_docker.sh```
 
-5. In the container so launched, compile MAVSDK library by running the script ```bash build_mavsdk.sh```
+5. In the container so launched, compile MAVSDK library by running the script ```build_mavsdk.sh```
 
-6. Similarly build the examples by running the script ```bash build_examples.sh```
+6. Similarly build the examples by running the script ```build_examples.sh```
 
-7. Launch the SITL by running ```bash run_sitl_apm.sh```
+7. Launch the SITL by running ```run_sitl_apm.sh```
 
-8. Run any of the examples by running ```bash run_example.sh```
+8. Run any of the examples by running ```run_example.sh```
 
 ## Questions 
 
