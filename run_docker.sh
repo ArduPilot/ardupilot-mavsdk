@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PATH_TO_MAVSDK="/Users/autrik/Documents/Repos/MAVSDK"
-PATH_TO_TOOLS="/Users/autrik/Documents/Repos/ardupilot-mavsdk/"
+PATH_TO_MAVSDK="$HOME/Documents/Repos/MAVSDK"
+PATH_TO_TOOLS="$HOME/Documents/Repos/ardupilot-mavsdk/"
 
 docker run -it --rm \
         -p 14550:14540/udp \
