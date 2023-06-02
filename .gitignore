@@ -1,0 +1,9 @@
+logs/
+terrain/
+
+build/
+
+mav.parm
+mav.tlog
+mav.tlog.raw
+way.txt
