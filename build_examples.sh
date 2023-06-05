@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-for example in "param" "info_telemetry" "actions" "missions"
+for example in "param" "info_telemetry" "actions" "missions_rover" "missions_copter"
 do
     echo "###############################################"
     echo "Building $example example"
