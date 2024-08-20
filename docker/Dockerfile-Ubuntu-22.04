@@ -4,7 +4,7 @@
 # Author: Julian Oes <julian@oes.ch>
 #
 
-FROM --platform=linux/amd64 ubuntu:20.04
+FROM --platform=linux/amd64 ubuntu:22.04
 MAINTAINER Julian Oes <julian@oes.ch>
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -18,7 +18,7 @@ RUN apt-get update \
         build-essential \
         ca-certificates \
         ccache \
-        clang-format-10 \
+        clang-format-12 \
         cmake \
         colordiff \
         doxygen \

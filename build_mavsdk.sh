@@ -12,5 +12,5 @@ cmake --build third_party/mavlink/build
 cmake -Bbuild/default -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=false -H.
 cmake --build build/default -j8
 sudo cmake --build build/default --target install
-
-cd ../tools
+cd build/default && make install ## Otherwise libmavsdk does not get installed systemwide
+cd ../../../ardupilot-mavsdk
